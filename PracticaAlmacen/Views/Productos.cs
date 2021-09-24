@@ -55,14 +55,14 @@ namespace PracticaAlmacen.Views
             if (operacion == "insertar")
             {
                 oProducto.insertarProducto();
-                MessageBox.Show("Registro Insertado correctamente");
+                MessageBox.Show("Registro Insertado correctamente!!!");
             }
             else if(operacion == "editar")
             {
                 oProducto.Id = id;
                 oProducto.editarProducto();
                 operacion = "insertar";
-                MessageBox.Show("Registro Actualizado correctamente");
+                MessageBox.Show("Registro Actualizado correctamente!!!");
             }
             //MessageBox.Show(cmbCategoria.SelectedValue.ToString());
             listarProductos();
